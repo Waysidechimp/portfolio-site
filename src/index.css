@@ -1,3 +1,7 @@
+:root {
+    background-color: rgb(23, 26, 25);
+}
+
 .content {
     background-color: gray;
     align-content: center;
@@ -6,6 +10,7 @@
 }
 
 .home_title {
+    text-align: center;
     font-size: 60px;
 }
 
@@ -14,6 +19,8 @@
 }
 
 .intro_header {
+    text-decoration: underline;
+    text-align: center;
     font-size: 45px;
 }
 
@@ -31,5 +38,22 @@
 }
 
 .projects_title {
+    text-decoration: underline;
+    text-align: center;
     font-size: 45px;
+}
+
+.project {
+    white-space: pre-line;
+    text-align: center;
+}
+
+.project_text {
+    font-size: 40px;
+}
+
+.project_image {
+    height: 500px;
+    width: 600px;
+    border-radius: 80px;
 }

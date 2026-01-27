@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import stockImg from './assets/portrait.png'
+import fruitFetcherImg from './assets/FruitFetcher.png'
 import Project from './components/Project.jsx'
 import './index.css'
 
@@ -23,6 +24,11 @@ Here you'll find some projects I've worked on, along with my resume. Feel free t
       </div>
       <div className='projects'>
         <h2 className='projects_title'>Projects + Experiences</h2>
+        <Project
+          projectTitle="Fruit Fetcher"
+          projectDate="Winter 2024"
+          projectRole="Design & Programming"
+          projectImg={fruitFetcherImg}  />
       </div>
     </div>
   )

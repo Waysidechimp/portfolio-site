@@ -1,34 +1,80 @@
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 :root {
-    background-color: rgb(23, 26, 25);
+    background-color: white;
 }
 
 .content {
-    background-color: gray;
+    background-color: rgb(187, 187, 187);
     align-content: center;
-    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 30px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .home_title {
     text-align: center;
-    font-size: 60px;
+    display: inline-block;
+    min-width: 600px;
+    max-width: 1000px;
+    font-size: 40px;
+}
+
+.dropdowns {
+    display: inline-block;
+    min-width: 1000px;
+    max-width: 1000px;
+    font-size: 20px;
+}
+
+.dropdown_ele {
+    display: inline-block;
+    margin: 20px;
+}
+
+.socials {
+    display: inline-block;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.socials_img {
+    padding: 5px;
+    height: 50px;
+    width: 50px;
 }
 
 .intro_content {
     display: flex;
+    padding-bottom: 15px;
 }
 
 .intro_header {
-    text-decoration: underline;
+    border-bottom: 1px solid black;
     text-align: center;
     font-size: 45px;
+    margin-bottom: 10px;
 }
 
 .intro_paragraph {
     white-space: pre-line;
     float: left;
     font-size: 30px;
-    padding-right: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 .intro_portrait_img {
@@ -38,7 +84,7 @@
 }
 
 .projects_title {
-    text-decoration: underline;
+    border-bottom: 1px solid black;
     text-align: center;
     font-size: 45px;
 }
@@ -53,6 +99,8 @@
 }
 
 .project_image {
+    border-top: 10px solid black;
+    border-right: 10px solid black;
     height: 500px;
     width: 600px;
     border-radius: 80px;

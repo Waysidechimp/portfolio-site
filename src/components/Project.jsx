@@ -6,9 +6,9 @@ const Project = ({projectTitle, projectDate, projectRole, projectImg}) => {
             <div className="project_text">
                 <h3>{projectTitles}</h3>
             </div>
-            <div >
+            <a href="" >
                 <img src={projectImg} className="project_image"/>
-            </div>
+            </a>
         </div>
     )
 }

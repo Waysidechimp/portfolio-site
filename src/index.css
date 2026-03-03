@@ -8,6 +8,21 @@
     background-color: white;
 }
 
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: wheat;
+}
+
 .content {
     background-color: rgb(187, 187, 187);
     align-content: center;
@@ -89,7 +104,17 @@
     font-size: 45px;
 }
 
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .project {
+    border: none;
+    cursor: pointer;
     white-space: pre-line;
     text-align: center;
 }

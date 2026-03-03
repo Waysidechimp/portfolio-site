@@ -6,12 +6,12 @@ const Header = () => {
 
     return (
         <div className="header">
-            <h1 className='home_title'>Zion Johnson's <br /> Developer Portfolio</h1>
+            <a href='/' className='home_title'>Zion Johnson's <br /> Developer Portfolio</a>
             <div className="dropdowns">
-                <h3 className="dropdown_ele">Web Projects</h3>
-                <h3 className="dropdown_ele">Game Projects</h3>
-                <h3 className="dropdown_ele">Resume</h3>
-                <h3 className="dropdown_ele">About</h3>
+                <a href='/webprojects' className="dropdown_ele">Web Projects</a>
+                <a href='/gameprojects' className="dropdown_ele">Game Projects</a>
+                <a href='/resume' className="dropdown_ele">Resume</a>
+                <a href='/about' className="dropdown_ele">About</a>
             </div>
             <div className="socials">
                     <a href="https://www.linkedin.com/in/zion-johnson-96b350256/" >

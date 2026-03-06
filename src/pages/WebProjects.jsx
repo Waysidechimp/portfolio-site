@@ -4,6 +4,9 @@ const WebProjects = () => {
     return (
         <>
         <Header />
+        <div className='content'>
+            <h2 className='section_header' >Web Projects</h2>
+        </div>
         </>
     )
 }

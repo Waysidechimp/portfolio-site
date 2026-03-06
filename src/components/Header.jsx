@@ -20,7 +20,7 @@ const Header = () => {
                     <a href="https://github.com/Waysidechimp">
                         <img src={GithubIcon} alt="Github Icon" className='socials_img'/>
                     </a>
-                    <a href="zionajjohnson@gmail.com">
+                    <a href="mailto:zionajjohnson@gmail.com">
                         <img src={EmailIcon} alt="Email Icon" className='socials_img'/>
                     </a>
             </div>

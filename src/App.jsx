@@ -10,12 +10,13 @@ import WebProjects from './pages/WebProjects'
 import GameProjects from './pages/GameProjects'
 import Resume from './pages/Resume'
 import About from './pages/About'
-import FruitFetcher from './components/FruitFetcher'
+import FruitFetcher from './pages/FruitFetcher'
 
 
 function App() {
 
   return (
+    <div className='content-wrapper'>
     <Router>
       <Routes>
         <Route exact path='/' element={<Home />} />
@@ -26,6 +27,7 @@ function App() {
         <Route path='/FruitFetcher' element={<FruitFetcher />} />
       </Routes>
     </Router>
+    </div>
   )
 }
 

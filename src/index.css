@@ -8,6 +8,22 @@
     background-color: #8b6d9c;
 }
 
+html, .body {
+    height: 100%;
+}
+
+.body {
+    min-width: 288px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
 a:link {
     text-decoration: none;
     color: #fbf5ef;
@@ -38,9 +54,28 @@ a:hover {
 
 .content {
     background-color: #494d7e;
+    flex-grow: 1;
     min-width: 70%;
+    max-width: 80%;
     color: #fbf5ef;
     align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.content-center {
+    background-color: #494d7e;
+    flex-grow: 1;
+    min-width: 70%;
+    max-width: 80%;
+    color: #fbf5ef;
+    align-content: center;
+    text-align: center;
     font-size: 25px;
     margin-left: 150px;
     margin-right: 150px;
@@ -58,6 +93,16 @@ a:hover {
     justify-content: space-between;
 }
 
+.footer {
+    margin-top: auto;
+    margin-bottom: 0;
+    width: 100vw;
+    background-color: #272744;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .home_title {
     text-align: center;
     min-width: 350px;
@@ -67,8 +112,17 @@ a:hover {
     justify-content: start;
 }
 
+.experience {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .dropdowns {
     padding-top: 40px;
+    padding-right: 10%;
     height: 100%;
     font-size: 25px;
 }
@@ -79,13 +133,13 @@ a:hover {
 
 .socials {
     height: 100%;
-    padding: 15px 20px 0px;
 }
 
 .socials_img {
     padding: 5px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
 }
 
 .section_header {
@@ -95,41 +149,37 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.portrait_img {
-    float: right;
-    height: 500px;
-    width: 500px;
-}
-
-.projects_title {
-    border-bottom: 1px solid #c69fa5;
-    text-align: center;
-    font-size: 45px;
-}
-
-
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 .project {
+    margin: 8px;
+    padding: 24px;
+    width: calc(50% - 16px);
+    height: 100%;
     border: none;
     cursor: pointer;
     white-space: pre-line;
     text-align: center;
+    background-color: #272744;
+    color: #fbf5ef;
+    display: inline-block;
 }
 
-.project_text {
-    font-size: 40px;
+.project-card-text {
+    font-size: 22px;
+    color: #fbf5ef;
+}
+
+.project-card-title {
+    font-size: 25px;
+    color: #c69fa5;
 }
 
 .project_image {
-    border-top: 10px solid black;
-    border-right: 10px solid black;
-    height: 500px;
-    width: 600px;
-    border-radius: 80px;
+    aspect-ratio: 3/2;
+    margin-left: -24px;
+    margin-top: -24px;
+    width: calc(100% + 48px);
+    display: inline-flex;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    overflow: hidden;
 }

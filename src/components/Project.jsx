@@ -1,18 +1,19 @@
-const Project = ({projectTitle, projectDate, projectRole, projectImg}) => {
-    const projectTitles = `${projectTitle}\n${projectDate}\n${projectRole}`
+const Project = ({projectTitle, projectYr, projectRole, projectImg, projectDesc}) => {
     const projLink = projectTitle.replace(/\s+/g, '');
 
     return (
-        <div className="buttonContainer">
-            <button className="project" onClick={() => window.location=`/${projLink}`}>
-            <div >
-                <div className="project_text">
-                    <h3>{projectTitles}</h3>
-                </div>
-                <img src={projectImg} className="project_image"/>
+        <button className="project" onClick={() => window.location=`/${projLink}`}>
+        <div >
+            <img src={projectImg} className="project_image"/>
+            <div className="project-card-text">
+                <h3 className="project-card-title">
+                    {projectTitle} {projectYr} <br />
+                    <small className="project-card-text">{projectRole}</small>
+                </h3>
+                <p>{projectDesc}</p>
             </div>
-            </button>
         </div>
+        </button>
     )
 }
 

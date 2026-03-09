@@ -7,7 +7,7 @@ import DialogCreationIMG from '../assets/DialogCreation.png'
 
 const GameProjects = () => {
     const fruitFetchDesc = "A loopy puzzle platform made by myself.\nGet all the fruit and reach the goal!"
-    const eternalGuestDesc = "This game was made in collaboration with my college peers.\nHack and bash your way out of the mysterious hotel!"
+    const eternalGuestDesc = "This game was made with my college peers. Hack and bash your way out of the mysterious hotel!"
     const dialogCreationDesc = "This tool was made to further explore dialog creation systems using\nnarrative design tools like Inkle or Twine."
     
     return (

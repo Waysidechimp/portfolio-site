@@ -52,6 +52,10 @@ a:hover {
     justify-content: center;
 }
 
+.embed {
+    min-height: 1130px;
+}
+
 .content {
     background-color: #494d7e;
     flex-grow: 1;
@@ -152,8 +156,8 @@ a:hover {
 .project {
     margin: 8px;
     padding: 24px;
-    width: calc(50% - 16px);
-    height: 100%;
+    width: calc(30% - 16px);
+    height: 480px;
     border: none;
     cursor: pointer;
     white-space: pre-line;
@@ -165,6 +169,7 @@ a:hover {
 
 .project-card-text {
     font-size: 22px;
+    overflow: hidden;
     color: #fbf5ef;
 }
 

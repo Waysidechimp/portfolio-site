@@ -59,6 +59,7 @@ a:hover {
 .content {
     background-color: #494d7e;
     flex-grow: 1;
+    height: 100%;
     min-width: 70%;
     max-width: 80%;
     color: #fbf5ef;
@@ -86,6 +87,11 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 30px;
+}
+
+.project-content {
+    width: 50%;
+    float: left;
 }
 
 .header {

@@ -11,6 +11,9 @@ import GameProjects from './pages/GameProjects'
 import Resume from './pages/Resume'
 import About from './pages/About'
 import FruitFetcher from './pages/FruitFetcher'
+import EternalGuest from './pages/EternalGuest'
+import DialogCreation from './pages/DialogCreation'
+import PortfolioWebsite from './pages/PortfolioWebsite'
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
         <Route exact path='/Resume' element={<Resume />} />
         <Route path='/About' element={<About />} />
         <Route path='/FruitFetcher' element={<FruitFetcher />} />
+        <Route path='/EternalGuest' element={<EternalGuest />} />
+        <Route path='/DialogCreation' element={<DialogCreation />} />
+        <Route path='/PortfolioWebsite' element={<PortfolioWebsite />} />
       </Routes>
     </Router>
     </div>

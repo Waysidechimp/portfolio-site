@@ -14,7 +14,7 @@ const GameProjects = () => {
         <div className='body'>
             <Header />
             <div className='content'>
-                <h2 className='section_header' >Game Projects</h2>
+                <h2 className='section-header' >Game Projects</h2>
                 <div className='experience'>
                     <Project projectTitle="Fruit Fetcher" projectYr="(2024)" projectRole="Programming & Design" projectImg={FruitFetcherIMG} projectDesc={fruitFetchDesc} />
                     <Project projectTitle="Eternal Guest" projectYr="(2024)" projectRole="Gameplay Programmer" projectImg={EternalGuestIMG} projectDesc={eternalGuestDesc} />

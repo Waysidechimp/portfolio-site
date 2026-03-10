@@ -60,8 +60,7 @@ a:hover {
     background-color: #494d7e;
     flex-grow: 1;
     height: 100%;
-    min-width: 70%;
-    max-width: 80%;
+    width: 70%;
     color: #fbf5ef;
     align-content: center;
     justify-content: center;
@@ -130,6 +129,11 @@ a:hover {
     justify-content: center;
 }
 
+.experience-home {
+    display: flex;
+    height: 400px;
+}
+
 .dropdowns {
     padding-top: 40px;
     padding-right: 10%;
@@ -152,7 +156,7 @@ a:hover {
     object-fit: cover;
 }
 
-.section_header {
+.section-header {
     border-bottom: 1px solid #c69fa5;
     text-align: center;
     font-size: 45px;
@@ -164,6 +168,20 @@ a:hover {
     padding: 24px;
     width: calc(30% - 16px);
     height: 480px;
+    border: none;
+    cursor: pointer;
+    white-space: pre-line;
+    text-align: center;
+    background-color: #272744;
+    color: #fbf5ef;
+    display: inline-block;
+}
+
+.project-home {
+    margin: 8px;
+    padding: 24px;
+    min-width: 340px;
+    height: 340px;
     border: none;
     cursor: pointer;
     white-space: pre-line;

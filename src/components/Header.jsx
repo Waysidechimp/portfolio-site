@@ -8,8 +8,8 @@ const Header = () => {
         <div className="header">
             <a href='/' className='home_title'>Zion Johnson's <br /> Developer Portfolio</a>
             <div className="dropdowns">
-                <a href='/webprojects' className="dropdown_ele">Web Projects</a>
                 <a href='/gameprojects' className="dropdown_ele">Game Projects</a>
+                <a href='/webprojects' className="dropdown_ele">Web Projects</a>
                 <a href='/resume' className="dropdown_ele">Resume</a>
                 <a href='/about' className="dropdown_ele">About</a>
             </div>

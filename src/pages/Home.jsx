@@ -2,8 +2,8 @@ import Footer from '../components/Footer'
 import Header from '/src/components/Header.jsx'
 import ProjectHome from '../components/ProjectHome'
 import FruitFetcherIMG from '../assets/FruitFetcher.png'
-import EternalGuestIMG from '../assets/EternalGuest.png'
-import DialogCreationIMG from '../assets/DialogCreation.png'
+import EternalGuestIMG from '../assets/EternalGuest/TitleCard.png'
+import DialogCreationIMG from '../assets/DialogCreation/TitleCard.png'
 import portfolioIMG from '../assets/PortfolioIMG.png'
 
 const Home = () => {

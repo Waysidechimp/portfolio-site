@@ -1,13 +1,16 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import FruitGIF1 from "../assets/FruitGIF1.gif"
+import FruitIMG1 from "../assets/FruitIMG1.png"
+import FruitIMG2 from "../assets/FruitIMG2.png"
 
 const FruitFetcher = () => {
     return (
         <div className="body">
          <Header />
-         <div className='content'>
+         <div className='content' style={{marginBottom:"0px"}}>
             <div className="project-content">
-                <h2 style={{textAlign:"center", alignSelf:"center"}}>
+                <h2 style={{textAlign:"center", alignSelf:"center", marginTop:"20px"}}>
                     Fruit Fetcher is <br />
                     <small>
                         a single player puzzle platformer where you run
@@ -37,14 +40,16 @@ const FruitFetcher = () => {
                 encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" 
                 allowfullscreen></iframe>
-                <p>Fruit Fetcher is a game a made that I’m decently proud of.
-                    It’s also the game that showed me that level design is hard.</p>
+                <p style={{textAlign:"left", fontSize:"20px", margin:"0px 60px 0px"}}>
+                    Fruit Fetcher is a game a made that I’m decently proud of.
+                    It’s also the game that showed me that level design is hard.
+                </p>
             </div>
-            <div style={{textAlign:"center", backgroundColor:"#272744"}} className="project-content">
+            <div style={{textAlign:"center", padding:"40px 0px 40px", backgroundColor:"#272744"}} className="project-content">
                 <h2>
                     Experiences <br />
                 </h2>
-                <p style={{textAlign:"left", margin:"0px",fontSize:"23px"}} >
+                    <p style={{textAlign:"left", margin:"0px 10px 0px", fontSize:"23px"}} >
                         During the development of this game, I did the following:
                     </p>
                     <ul style={{textAlign:"left",margin:"7px"}}>
@@ -52,7 +57,7 @@ const FruitFetcher = () => {
                             <li>Created levels that interacted with the primary mechanic.</li>
                             <li>Imported and integrated are and animations</li>
                     </ul>
-                    <p style={{textAlign:"left", margin:"0px",fontSize:"23px"}} >
+                    <p style={{textAlign:"left", margin:"0px 10px 0px", fontSize:"23px"}} >
                         During the development of this game, I learned the following:</p>
                     <ul style={{textAlign:"left",margin:"7px"}}>
                             <li>Design Space, how many unique levels you can make are constrained by your mechanics.</li>
@@ -60,6 +65,11 @@ const FruitFetcher = () => {
                     </ul>
             </div>
          </div>
+         <div className="expandable-img-container" style={{display:"flex", padding:"0px 100% 0px", margin:"3% 0px 3%", backgroundColor:"#272744"}}>
+                <img src={FruitGIF1} alt="Fruit Fetcher Gaemplay" width={250} height={150} style={{margin:"3px"}}/>
+                <img className="expandable-img" src={FruitIMG1} alt="Fruit Fetcher Gaemplay" width={250} height={150} style={{margin:"3px"}}/>
+                <img className="expandable-img" src={FruitIMG2} alt="Fruit Fetcher Gaemplay" width={250} height={150} style={{margin:"3px"}}/>
+        </div>
          <Footer />
         </div >
     )

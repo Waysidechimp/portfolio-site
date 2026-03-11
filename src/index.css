@@ -212,3 +212,9 @@ a:hover {
     border-top-right-radius: 7px;
     overflow: hidden;
 }
+
+.expandable-img-container > img:hover{
+    width: 800px;
+    height: 400px;
+}
+

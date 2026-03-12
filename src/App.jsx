@@ -15,7 +15,6 @@ import EternalGuest from './pages/EternalGuest'
 import DialogCreation from './pages/DialogCreation'
 import PortfolioWebsite from './pages/PortfolioWebsite'
 
-
 function App() {
 
   return (

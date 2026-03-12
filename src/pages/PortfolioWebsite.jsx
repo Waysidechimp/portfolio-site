@@ -1,8 +1,8 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import FruitGIF1 from "../assets/FruitGIF1.gif"
+import FruitGIF1 from "../assets/FruitFetcher/FruitGIF1.gif"
 import EternalGIF1 from "../assets/EternalGuest/EternalGuestGIF1.gif"
-import FruitIMG2 from "../assets/FruitIMG2.png"
+import FruitIMG2 from "../assets/FruitFetcher/FruitIMG2.png"
 
 const PortfolioWebsite = () => {
     return (

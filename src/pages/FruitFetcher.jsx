@@ -1,8 +1,8 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import FruitGIF1 from "../assets/FruitGIF1.gif"
-import FruitIMG1 from "../assets/FruitIMG1.png"
-import FruitIMG2 from "../assets/FruitIMG2.png"
+import FruitGIF1 from "../assets/FruitFetcher/FruitGIF1.gif"
+import FruitIMG1 from "../assets/FruitFetcher/FruitIMG1.png"
+import FruitIMG2 from "../assets/FruitFetcher/FruitIMG2.png"
 
 const FruitFetcher = () => {
     return (

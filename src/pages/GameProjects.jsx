@@ -1,7 +1,7 @@
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Project from '../components/Project.jsx'
-import FruitFetcherIMG from '../assets/FruitFetcher.png'
+import FruitFetcherIMG from '../assets/FruitFetcher/FruitFetcher.png'
 import EternalGuestIMG from '../assets/EternalGuest/TitleCard.png'
 import DialogCreationIMG from '../assets/DialogCreation/TitleCard.png'
 
